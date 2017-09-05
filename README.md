@@ -1,7 +1,8 @@
 # intel-ayc-early2012
-Submission by Sebastian Eder and me for the intel Accelerate Your Code (AYC) contest
+Submission by Sebastian Eder and me for the intel Accelerate Your Code (AYC) contest.
 
-Parallelization of the orignal program provided in /ayc-original/ by means of
+The final submission for parallelizing the original program provided in /ayc-original/ can be found in /ayc-pthread-nopack/. It contains the source code as well as a description of our approach.
+
+In addition, we also explored alternative approaches using:
 - OpenMP:  /ayc-openmp/
-- Pthread: /ayc-pthread/
-- Packing: /ayc-pack/
+- 'Packing', i.e., encoding/decoding sequences before/after comparison, in /ayc-pack/
